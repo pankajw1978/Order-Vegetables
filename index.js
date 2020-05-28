@@ -17,7 +17,7 @@ for (var index = 0; index < 6; index++) {
     <img src="${vegetablesImg[index]}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${vegetables[index]}</h5>
-      <h5 class="card-title">${vegetablesPrices[index] + " Rupee"}</h5>
+      <h5 class="card-title">${vegetablesPrices[index] + "/Rupee"}</h5>
 
 
       <div class="input-group my-3">
