@@ -17,7 +17,7 @@ for (var index = 0; index < 6; index++) {
     <img src="${vegetablesImg[index]}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${vegetables[index]}</h5>
-      <h5 class="card-title">${vegetablesPrices[index] + "$"}</h5>
+      <h5 class="card-title">${vegetablesPrices[index] + " Rupee"}</h5>
 
 
       <div class="input-group my-3">
@@ -72,7 +72,7 @@ for (let index = 0; index < items.length; index++) {
 
 // Clear Items
 $(".clearItems").click(function(){
-    $(".list-group").empty();
+    $(".list-group").slideUp().empty().slideDown();
     $(".totalP").text("Total Price: 0");
 })
 
